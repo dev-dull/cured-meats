@@ -23,6 +23,6 @@ ratios = dict()
 for k, v in ingredient_weights.items():
   ratios[k] = v/pork_ratio_weight
 
-pork_weight=3402.4
+pork_weight=5169.1
 for k, v in ratios.items():
   print(f"{k:<20} {pork_weight * v:>10.2f}")
